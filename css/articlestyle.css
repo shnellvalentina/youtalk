@@ -1,0 +1,1530 @@
+/*шрифты*/
+@font-face{
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat-Bold.woff) format("woff"), 
+         url(../fonts/Montserrat-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat-Medium.woff) format("woff"), 
+         url(../fonts/Montserrat-Medium.ttf) format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat-Regular.woff) format("woff"), 
+         url(../fonts/Montserrat-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat-SemiBold.woff) format("woff"), 
+         url(../fonts/Montserrat-SemiBold.ttf) format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat-Italic.woff) format("woff"), 
+         url(../fonts/Montserrat-Italic.ttf) format("truetype");
+    font-weight: 400;
+    font-style: italic;
+}
+html,
+body {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+ul,
+a {
+    text-decoration: none;
+    list-style-type: none;
+    color: #333333;
+}
+
+ul {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 24px;
+}
+
+/* стили для header */
+
+.header__wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    border-bottom: 1px solid #eff5fb;
+}
+
+main {
+    background-image: url(../images/svg/article-img-cloud-acide.svg);
+    background-repeat: no-repeat;
+    background-position: 1300px 2450px;
+}
+
+.header__wrapper_img-logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 51px;
+}
+
+nav {
+    padding: 0;
+    margin-right: 296px;
+}
+
+.nav-item__pseudo {
+    display: none;
+}
+
+.header__wrapper_nav {
+    display: flex;
+    padding: 0;
+    min-width: 582px;
+}
+
+.header__wrapper_nav-item {
+    padding-right: 30px;
+}
+
+.header__wrapper_nav-item__last {
+    padding: 0;
+}
+
+.item-img {
+    padding-left: 8px;
+}
+
+.header__wrapper_button {
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #03b2a5;
+    color: #03b2a5;
+    border-radius: 4px;
+    padding: 14px 20px 14px 20px;
+    margin: 14px 0 14px 0;
+    min-width: 230px;
+    min-height: 48px;
+    background: #e3f5f5;
+    border: none;
+    cursor: pointer;
+}
+
+/* стили main */
+
+.main__wrapper{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main__wrapper_section {
+    max-width: 691px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.main__wrapper_section_span {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-width: 496px;
+    height: 18px;
+    margin: 16px 0 54px 0;
+}
+
+.main__wrapper_section_span-item {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(51, 51, 51, 0.7);
+    cursor: pointer;
+}
+
+.main__wrapper_section_span-itemvector {
+    margin-left: 10px;
+    margin-right: 13px;
+    padding-top: 4px;
+}
+
+.main__wrapper_section-heading {
+    max-width: 690px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    margin: 0 0 16px 0;
+}
+
+.main__wrapper_section-author {
+    font-weight: 400;
+    font-size: 14px;
+    color: #494949;
+    margin-bottom: 24px;
+}
+
+.main__wrapper_section-img {
+    max-width: 690px;
+    margin-bottom: 24px;
+}
+
+.main__wrapper_section-list {
+    max-width: 588px;
+    margin-bottom: 24px;
+}
+
+.main__wrapper_section-list-title {
+    margin: 0 0 16px;
+    color: #333333;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.main__wrapper_section_list-item {
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.item-2 {
+    margin-left: 32px;
+    margin-bottom: 4px;
+}
+
+.item-3 {
+    margin-left: 56px;
+    margin-bottom: 4px;
+}
+
+.item-4 {
+    margin-left: 72px;
+    margin-bottom: 4px;
+}
+
+.item-5 {
+    margin-left: 88px;
+    margin-bottom: 8px;
+}
+
+.item-6 {
+    margin-left: 32px;
+    margin-bottom: 14px;
+}
+
+.main__wrapper_section_list-quote {
+    max-width: 690px;
+    margin-bottom: 40px;
+}
+
+.main__wrapper_section_list-quote-heading {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.main__wrapper_section_list-quote-txt {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.main__wrapper_section_quotation {
+    max-width: 690px;
+    background: #f3f7fe;
+    border-radius: 16px;
+    padding: 34px 24px 24px 24px;
+    background-image: url(../images/svg/article-quote.svg);
+    background-size: 55px 36px;
+    background-repeat: no-repeat;
+    background-position: 24px 24px;
+    margin-bottom: 24px;
+}
+
+.main__wrapper_section_quotation-txt {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 8px;
+}
+
+.main__wrapper_section_quotation-author {
+    margin: 0;
+}
+.main__wrapper_sidesection {
+    margin-top: 88px;
+}
+
+.main__wrapper_sidesection-cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 234px;
+    max-height: 464px;
+    background: #e6f0fd;
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.main__wrapper_sidesection-heading {
+    width: 234px;
+    height: 56px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 24px 24px 8px 24px;
+}
+
+.main__wrapper_sidesection-txt {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 24px;
+    width: 234px;
+}
+
+.main__wrapper_sidesection-btn,
+.main__wrapper_sidesection-cart-2-bottom-btn,
+.main__wrapper_sidesection-cart-4-btn {
+    width: 234px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    background: #35b3a9;
+    border-radius: 4px;
+    padding: 12px 16px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.main__wrapper_sidesection-cart-2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    padding: 24px 16px 24px 16px;
+    margin-top: 24px;
+    margin-bottom: 31px;
+    background: #ffffff;
+    border: 1px solid #dedede;
+    border-radius: 16px;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.main__wrapper_sidesection-cart-2-avatar {
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__wrapper_sidesection-cart-2-linkgroup {
+    position: absolute;
+    top: 19px;
+}
+
+.main__wrapper_sidesection-cart-2-linkgroup-link1 {
+    display: flex;
+    background: rgba(243, 244, 248, 0.7);
+    border-radius: 6px;
+    margin-bottom: 8px;
+    padding: 3px 0 6px 4px;
+    width: 105px;
+}
+
+.main__wrapper_sidesection-cart-2-linkgroup-link2 {
+    display: flex;
+    background: rgba(243, 244, 248, 0.7);
+    border-radius: 6px;
+    padding: 3px 0 3px 4px;
+    width: 74px;
+}
+
+.main__wrapper_sidesection-cart-2-txt {
+    font-size: 12px;
+    line-height: 18px;
+    padding-left: 4px;
+}
+
+.main__wrapper_sidesection-cart-2-img {
+    border-radius: 50%;
+}
+
+.main__wrapper_sidesection-cart-2-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 1px 0px #dedede;
+}
+.main__wrapper_sidesection-cart-bottom-2-name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.main__wrapper_sidesection-cart-bottom-2-profession {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 4px;
+}
+
+.main__wrapper_sidesection-cart-bottom-2-experience {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #a2a7b1;
+    margin-bottom: 16px;
+}
+
+.main__wrapper_sidesection-cart-2-bottom-heading {
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+ul {
+    padding: 0;
+}
+
+.main__wrapper_sidesection-cart-2-bottom-sidelist-item {
+    margin-bottom: 8px;
+    color: #333333;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.main__wrapper_sidesection-cart-2-bottom-sidelist-item-img {
+    margin-right: 10px;
+}
+
+.btn_width {
+    width: 250px;
+    margin-bottom: 12px;
+}
+
+.main__wrapper_sidesection-cart-3 {
+    margin-bottom: 42px;
+    max-width: 234px;
+}
+
+.main__wrapper_sidesection-cart-4 {
+    max-width: 282px;
+    max-height: 304px;
+    box-sizing: border-box;
+    background: #ffffff;
+    border: 1px solid #dedede;
+    border-radius: 24px;
+    padding: 32px;
+    margin: 0;
+    background-image: url(../images/svg/article-img-present.svg);
+    background-repeat: no-repeat;
+    background-position-x: 25px;
+}
+
+.main__wrapper_sidesection-cart-4_wrapp {
+    width: 218px;
+    height: 240px;
+}
+
+.main__wrapper_sidesection-cart-4_heading {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #2963a3;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.main__wrapper_sidesection-cart-4 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #011632;
+    margin-bottom: 16px;
+}
+
+.main__wrapper_sidesection-cart-4-span {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.main__wrapper_sidesection-cart-4-price {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+}
+
+.main__wrapper_sidesection-cart-4-btn {
+    width: 108px;
+    margin-top: 16px;
+}
+
+.main__wrapper_section-advices {
+    position: relative;
+    margin-bottom: 24px;
+}
+
+.main__wrapper_section-advices_heading {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.main__wrapper_section-advices-txt {
+    max-width: 658px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    position: relative;
+    left: 35px;
+}
+
+.advices-txt {
+    max-width: 572px;
+}
+
+.section__img {
+    position: relative;
+    left: 8px;
+    top: 19px;
+}
+
+.main__wrapper_section-advices-span {
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #868686;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.main__wrapper_section-advices-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    max-width: 691px;
+    height: 168px;
+    background-image: url(../images/svg/article-cloud.svg);
+    background-repeat: no-repeat;
+    background-position: 225.5px 0;
+    margin-bottom: 24px;
+}
+
+.main__wrapper_section-advices-2-txt {
+    max-width: 485px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin: 24px 104px 48px 102px;
+}
+
+.main__wrapper_section-advices-3 {
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.main__wrapper_section-advices-3-txt {
+    margin-left: 24px;
+    line-height: 24px;
+}
+
+.main__wrapper_section-advices-4 {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    padding: 24px;
+    background: #fefaec;
+    border-radius: 16px;
+}
+
+.another__2 {
+    background: #fff3eb;
+}
+
+.another__3 {
+    background: #03b2a51a;
+}
+
+.main__wrapper_section-advices-4-heading {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.main__wrapper_section-advices-5 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.main__wrapper_section-advicec-5-txt {
+    max-width: 386px;
+}
+
+.main__wrapper_section-advices-6 {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.main__wrapper_section-advices-6-upper {
+    margin-right: 24px;
+}
+
+.main__wrapper_section-advices-6-img {
+    margin-bottom: 24px;
+}
+
+.lightning {
+    margin-left: 256px;
+    margin-bottom: 24px;
+}
+
+.main__wrapper_section-advices-7 {
+    margin-bottom: 48px;
+}
+
+.main__wrapper_section-advices-7_last-list {
+    display: flex;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+}
+
+.main__wrapper_section-advices-7_last-list-item {
+    margin-right: 8px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.main__wrapper_section-advices-7 a {
+    color: #2963a3;
+    margin-right: 8px;
+}
+
+.search-psycologist {
+    background-image: 
+    url(../images/svg/article-img-background-bottom.svg), 
+    url(../images/svg/article-img-cloud-bottom.svg);
+    background-repeat: 
+    no-repeat, 
+    no-repeat;
+    background-size: 
+    cover, 
+    272px 240x;
+    background-position:  
+    center 428px,
+    1367px 72px;
+}
+
+
+.search-psycologist-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-top: 1px solid #dedede;
+}
+
+.search-psycologist__section {
+    max-width: 340px;
+    margin-top: 72px;
+    margin-bottom: 158px;
+}
+
+.search-psycologist__section--h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.search-psycologist__section--p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+
+.search-psycologist__section--btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    width: 238px;
+    padding: 20px 24px;
+    cursor: pointer;
+    background-color: #16c8bb;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.search-psycologist__img {
+    width: 520px;
+    height: 330px;
+    margin-top: 72px;
+    margin-left: 302px;
+}
+/*стили для footer*/
+.footer {
+    background: #2963a3;
+}
+.footer__wrapper {
+    font-family: Montserrat;
+    margin-left: 120px;
+    margin-right: 120px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer__nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.footer__nav_list {
+    padding: 0;
+    margin-top: 40px;
+    margin-right: 93px;
+}
+
+.footer__nav_item{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    padding-bottom: 16px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.foooter__suscribe {
+    width: 486px;
+    height: 170px;
+    margin-top: 40px;
+}
+
+.foooter__suscribe_heading {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffffff;
+    margin: 0;
+    margin-bottom: 8px;
+    width: 356px;
+    height: 52px;
+}
+
+.foooter__suscribe_text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #ffffff;
+    opacity: 0.7;
+    margin-top: 8px;
+}
+
+.foooter__suscribe_form {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 384px;
+    height: 48px;
+}
+
+.foooter__suscribe_form_input[type='text'] {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border: 1px solid rgba(157, 157, 157, 0.2);
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.foooter__suscribe_form_input[type='text']::placeholder {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #9d9d9d;
+}
+
+.foooter__suscribe_form_btn[type='submit'] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 12px 20px;
+    width: 64px;
+    height: 100%;
+    border: none;
+    border-radius: 4px;
+    background-color: #16c8bb;
+    cursor: pointer;
+}
+
+.footer__icons {
+    margin-top: 40px;
+    margin-left: 24px;
+}
+
+.footer__icons_scolkovo {
+    margin-bottom: 40px;
+}
+
+.footer__icons_socials_item {
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.footer__policy {
+    padding-top: 16px;
+    padding-bottom: 17px;
+    border-top: 1px solid rgba(157, 157, 157, 0.3);
+}
+
+.footer__policy_text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+    opacity: 0.7;
+    margin-right: 48px;
+    cursor: pointer;
+}
+
+/*адаптив*/
+
+@media (max-width: 1024px) {
+    .header__wrapper {
+        min-width: 960px;
+        margin-left: 32px;
+    }
+    nav {
+        margin-right: 20px;
+    }
+    .header__wrapper_nav{
+        min-width: 627px;
+    }
+    .header__wrapper_nav-item {
+        padding-right: 16px;
+    }
+    .nav-item__pseudo {
+        display: inline;
+    }
+    .header__wrapper_img-logo {
+        margin-right: 32px;
+    }
+
+    .main__wrapper {
+        max-width: 960px;
+    }
+    .main__wrapper_section {
+        max-width: 714px;
+        width: 100%;
+        margin-right: 24px;
+    }
+    .after-point::after {
+        content: '·';
+        margin-left: 8px;
+    }
+    .main__wrapper_section-author::after {
+        content: 'Self';
+        color: #2963a3;
+        margin-left: 8px;
+        cursor: pointer;
+    }
+    .main__wrapper_section-img {
+        max-width: 714px;
+        width: 714px;
+    }
+    .item-2,
+    .item-3,
+    .item-4,
+    .item-5,
+    .item-6 {
+        display: none;
+    }
+    .pseudo-img {
+        display: flex;
+    }
+    .main__wrapper_section_list-item::before {
+        content: url(../images/svg/Ellipse.svg);
+        background-repeat: no-repeat;
+        background-size: 8px 8px;
+        margin-right: 16px;
+        margin-left: 8px;
+    }
+    .people__img {
+        max-width: 714px;
+        width: 714px;
+    }
+    .main__wrapper_section-advices-6-upper,
+    .main__wrapper_section-advices-6-bottom {
+        width: 100%;
+    }
+    .main__wrapper_section-advices-6-img {
+        width: 345px;
+    }
+
+    .main__wrapper_sidesection {
+        max-width: 222px;
+    }
+    .main__wrapper_sidesection-cart {
+        padding: 24px 20px;
+    }
+    .main__wrapper_sidesection-img {
+        max-width: 181px;
+        max-height: 141px;
+    }
+    .main__wrapper_sidesection-heading {
+        max-width: 182px;
+        width: 182px;
+        height: 78px;
+    }
+    .main__wrapper_sidesection-txt {
+        width: 182px;
+        text-align: center;
+    }
+    .main__wrapper_sidesection-btn {
+        max-width: 182px;
+    }
+    .main__wrapper_sidesection-cart-2 {
+        padding: 24px;
+        margin-bottom: 24px;
+    }
+    .main__wrapper_sidesection-cart-2-linkgroup{
+        top: 16px;
+    }
+    .main__wrapper_sidesection-cart-2-bottom-sidelist {
+        margin-bottom: 8px;
+    }
+    .main__wrapper_sidesection-cart-2-bottom-sidelist-item:first-child {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+    .btn_width {
+        width: 174px;
+        margin-bottom: 0;
+    }
+    .main__wrapper_sidesection-cart-3 {
+        max-width: 222px;
+        height: 292px;
+        background-image: url(../images/svg/article-img-care.svg);
+        background-size: 222px 292px;
+        margin-bottom: 24px;
+    
+    }
+    .main__wrapper_sidesection-cart-3-img {
+        width: 0;
+        height: 0;
+    }
+    .main__wrapper_sidesection-cart-4 {
+        padding: 24px;
+        background-position-x: -35px;
+        background-size: 286px 312px;
+    }
+    .main__wrapper_sidesection-cart-4_wrapp {
+        width: 174px;
+        height: 260px;
+    }
+    .main__wrapper_sidesection-cart-4-txt {
+        width: 174px;
+        max-height: 100px;
+    }
+    .main__wrapper_sidesection-cart-4-btn {
+        width: 108px;
+        height: 48px;
+    }
+
+    .main__wrapper_section-advices-7_last-list {
+        display: none;
+    }
+    .search-psycologist {
+        display: none;
+    }
+    .footer__wrapper{
+        margin-left: 32px;
+        margin-right: 32px;
+        max-width: 960px;
+       }
+       .footer__nav_list{
+        margin-right: 30px;
+    }
+    .foooter__suscribe{
+        width: 450px;
+    }
+  
+}
+
+@media (max-width: 768px) {
+    .header__wrapper {
+        max-width: 768px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 20px;
+    }
+    nav {
+        display: none;
+    }
+    .header__wrapper_button {
+        display: none;
+    }
+    .header__wrapper_img-logo {
+        margin-left: 0;
+
+    }
+    .header__wrapper_img-logo::after {
+        content: url(../images/svg/burger-menu.svg);
+        background-repeat: no-repeat;
+        background-size: 18px 18px;
+        margin-left: 637px;
+        margin-right: 20px;
+    }
+
+    .main__wrapper {
+        display: flex;
+        flex-direction: column;
+        max-width: 728px;
+    }
+    .main__wrapper_section {
+        max-width: 728px;
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .main__wrapper_section-img {
+        max-width: 728px;
+        width: 728px;
+    }
+    .main__wrapper_section-list {
+        max-width: 727px;
+        width: 100%;
+    }
+    .main__wrapper_section_list-quote {
+        max-width: 727px;
+        width: 100%;
+    }
+    .people__img {
+        max-width: 728px;
+        width: 728px;
+    }
+    .main__wrapper_section-advices-3 {
+        max-width: 728px;
+        width: 100%;
+    }
+    .main__wrapper_section-advices-3-txt {
+        margin-left: 16px;
+    }
+    .main__wrapper_section-advices {
+        width: 100%;
+    }
+    .advices-txt {
+        width: 696px;
+        max-width: 696px;
+    }
+    .main__wrapper_section-advices-5-img {
+        max-width: 294px;
+        width: 100%;
+    }
+    .main__wrapper_section-advices-5-txt {
+        max-width: 418px;
+    }
+    .main__wrapper_section-advices-6-upper {
+        margin-right: 16px;
+    }
+    .lightning{
+        margin-left: 275px;
+    }
+    .another__3 {
+        margin-bottom: 0;
+    }
+
+    .main__wrapper_sidesection {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 728px;
+        margin-top: 0px;
+    }
+    .main__wrapper_sidesection-cart {
+        margin-right: 16px;
+        max-width: 316px;
+        width: 316px;
+        max-height: 481px;
+    }
+    .main__wrapper_sidesection-img {
+        max-width: 257px;
+        max-height: 206px;
+    }
+    .main__wrapper_sidesection-heading {
+        max-width: 308px;
+        width: 308px;
+        height: auto;
+    }
+    .main__wrapper_sidesection-txt {
+        width: 308px;
+    }
+    .main__wrapper_sidesection-btn {
+        width: 100%;
+        max-width: 308px;
+    }
+    .main__wrapper_sidesection-cart-2 {
+        max-width: 306px;
+        width: 306px;
+        min-height: 481px;
+        height: 481px;
+        margin-top: 0;
+    }
+    .main__wrapper_sidesection-cart-2-bottom-heading, .main__wrapper_sidesection-cart-2-bottom-sidelist{
+        margin-left: 30px;
+    }
+    .main__wrapper_sidesection-cart-2-avatar{
+        margin-top: 24px;
+    }
+    .main__wrapper_sidesection-cart-2-bottom{
+        max-width: 250px;
+        margin-left: 30px;
+    }
+    .btn_width{
+        width: 250px;
+        margin-left: 30px;
+    }
+
+    .main__wrapper_sidesection-cart-3{
+        max-width: 356px;
+        width: 356px;
+        height: 242px;
+        background-size: 356px 242px;
+        margin-bottom: 59px;
+        background-image: url(../images/svg/article-image-care.png);
+    }
+    .main__wrapper_sidesection-cart-4 {
+        max-width: 356px;
+        max-height: 248px;
+        width: 356px;
+        height: 248px;
+        background-position: 73px -2px;
+        background-size: 356px 248px;
+        margin-bottom: 59px;
+        margin-left: 16px;
+    }
+    .main__wrapper_sidesection-cart-4_wrapp {
+        width: 292px;
+        height: 220px;
+    }
+    .main__wrapper_sidesection-cart-4-txt {
+        width: 262px;
+    }
+    .main__wrapper_sidesection-cart-4-btn {
+        width: 108px;
+    }
+    .footer__wrapper{
+        max-width: 728px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .footer__content{
+    flex-wrap: wrap;
+    max-width: 728px;
+    }
+   .footer__nav_list{
+    margin-right: 31px;
+    }
+}
+
+
+@media (max-width: 414px) {
+    .header__wrapper {
+        max-width: 414px;
+    }
+    .header__wrapper_logo-img {
+        width: 48px;
+        height: 34px;
+    }
+    .header__wrapper_img-logo::after {
+        margin-left: 289px;
+        margin-bottom: 31px;
+        
+    }
+
+    .main__wrapper {
+        display: flex;
+        flex-direction: column;
+        max-width: 374px;
+        margin: 0 auto;
+    }
+    .main__wrapper_section {
+        max-width: 374px;
+        width: 100%;
+    }
+
+    .pseudo__item {
+        display: none;
+    }
+    
+    .pseudo__scr::after {
+        content: 'Как не утонуть в тревоге и управл..';
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        color: #333333b2;
+        display: inline-block;
+    }
+    .main__wrapper_section-heading {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .main__wrapper_section-img {
+        max-width: 374px;
+        width: 374px;
+    }
+    .main__wrapper_section-advices-txt {
+        max-width: 350px;
+    }
+    .people__img {
+        max-width: 374px;
+        width: 374px;
+    }
+    .main__wrapper_section-advices-2 {
+        max-width: 374px;
+        max-height: 168px;
+        background-position-x: 60px;
+    }
+    .main__wrapper_section-advices-2-txt {
+        margin: 0;
+    }
+    .main__wrapper_section-advices-3 {
+        display: block;
+    }
+    .main__wrapper_section-advices-3-img {
+        width: 374px;
+    }
+    .main__wrapper_section-advices-3-txt {
+        margin-left: 0;
+        margin-top: 16px;
+    }
+    .main__wrapper_section-advices-5 {
+        display: block;
+    }
+    .main__wrapper_section-advices-5-img {
+        max-width: 374px;
+        margin-bottom: 16px;
+    }
+    .main__wrapper_section-advices-6 {
+        display: block;
+    }
+    .main__wrapper_section-advices-6-img {
+        width: 374px;
+    }
+    .main__wrapper_section-advices-6-upper {
+        margin-bottom: 24px;
+    }
+    .lightning {
+        margin-left: 98px;
+    }
+
+    .main__wrapper_sidesection {
+        display: flex;
+        flex-direction: column;
+    }
+    .main__wrapper_sidesection-cart {
+        max-width: 374px;
+        width: 310px;
+        max-height: 512px;
+        padding: 24px 32px 44px 32px;
+    }
+    .main__wrapper_sidesection-cart-2 {
+        display: block;
+        max-width: 326px;
+        width: 326px;
+        height: 433px;
+        padding: 24px;
+        margin-top: 24px;
+    }
+    
+    .main__wrapper_sidesection-cart-2-bottom-heading {
+        margin-left: 38px;
+    }
+    .main__wrapper_sidesection-cart-2-bottom-sidelist {
+        margin-left: 44px;
+    }
+    .main__wrapper_sidesection-cart-2-bottom-sidelist-item:last-child {
+        display: inline;
+    }
+    .btn_width {
+        width: 250px;
+        margin-top: 16px;
+        margin-left: 38px;
+    }
+    .main__wrapper_sidesection-cart-3 {
+        display: block;
+        background-image: url(../images/svg/article-image-care.png);
+        background-repeat: no-repeat;
+        max-width: 374px;
+        max-height: 292px;
+        width: 374px;
+        height: 292px;
+        background-size: 374px 292px;
+        margin-bottom: 24px;
+    }
+    .main__wrapper_sidesection-cart-3-img {
+        width: 0;
+        height: 0;
+    }
+    .main__wrapper_sidesection-cart-4 {
+        max-width: 374px;
+        width: 374px;
+        max-height: 248px;
+        margin-bottom: 127px;
+        background-position: 90px -55px;
+        margin-left: 0;
+    }
+    .main__wrapper_sidesection-cart-4_wrapp {
+        max-width: 326px;
+        height: 200px;
+    }
+    .main__wrapper_sidesection-cart-4-txt {
+        width: 326px;
+    }
+    .main__wrapper_sidesection-cart-4-btn {
+        width: 108px;
+    }
+    .footer__wrapper {
+        max-width: 374px;
+    }
+    .footer__nav{
+    justify-content: space-between;
+    min-width: 375px;
+    }
+    .foooter__suscribe{
+        margin-top: 23px;
+    }
+    .footer__icons{
+        margin-top: 23px;
+    }
+    .footer__icons{
+        margin-top: 23px;
+        padding-top: 5px;
+        margin-left: 0;
+    }
+    .footer__icons_scolkovo{
+    margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    .header__wrapper {
+        max-width: 285px;
+    }
+    .header__wrapper_img-logo::after {
+        margin-left: 219px;
+    }
+    .main__wrapper {
+        display: flex;
+        flex-direction: column;
+        max-width: 288px;
+        margin: 0 auto;
+    }
+    .main__wrapper_section {
+        max-width: 288px;
+        width: 100%;
+    }
+    .pseudo__scr::after {
+        content: 'Как не утонуть в тр...';
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        color: #333333b2;
+        display: inline-block;
+    }
+    .main__wrapper_section-heading {
+        width: 288px;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .main__wrapper_section-img {
+        max-width: 288px;
+        width: 100%;
+        height: 160px;
+        margin-bottom: 16px;
+    }
+    .main__wrapper_section-advices {
+        margin-bottom: 16px;
+    }
+    .main__wrapper_section-advices-txt {
+        max-width: 250px;
+    }
+    .people__img {
+        max-width: 288px;
+        width: 100%;
+        height: 160px;
+    }
+    .main__wrapper_section-advices-heading {
+        background-position-x: 20px;
+    }
+    .main__wrapper_section-advices-3-img {
+        max-width: 288px;
+    }
+    .main__wrapper_section-advices-heading {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .main__wrapper_section-advices-6-img {
+        max-width: 288px;
+    }
+    .main__wrapper_section-advices-7{
+        margin-bottom: 24px;
+    }
+    .lightning {
+        margin-left: 55px;
+    }
+
+    .main__wrapper_sidesection {
+        max-width: 288px;
+    }
+    .main__wrapper_sidesection-cart {
+        max-width: 239px;
+        width: 100%;
+        padding: 24px 24px 24px 25px;
+    }
+    .main__wrapper_sidesection-txt {
+        width: 239px;
+    }
+    .main__wrapper_sidesection-cart-2 {
+        max-width: 250px;
+        max-height: 480px;
+        padding: 0 19px;
+    }
+    .main__wrapper_sidesection-cart-2-bottom{
+        margin-left: 0;
+    }
+    .main__wrapper_sidesection-cart-2-bottom-heading {
+        margin-left: 0;
+    }
+    .main__wrapper_sidesection-cart-2-bottom-sidelist {
+        margin-left: 5px;
+    }
+    .btn_width {
+        margin-left: 0;
+    }
+    .main__wrapper_sidesection-cart-3 {
+        background-image: url(../images/svg/article-image-care.png);
+        background-repeat: no-repeat;
+        max-width: 288px;
+        max-height: 292px;
+        width: 100%;
+        height: 292px;
+        background-size: 288px 292px;
+    }
+    .cmain__wrapper_sidesection-cart-4_wrapp {
+        max-width: 254px;
+    }
+    .main__wrapper_sidesection-cart-4-txt {
+        width: 254px;
+    }
+    .main__wrapper_sidesection-cart-4 {
+        max-width: 288px;
+        width: 100%;
+        max-height: auto;
+        padding: 16px;
+        background-size: 288px 252px;
+        background-position: 20px;
+    }
+    .footer__wrapper {
+        max-width: 288px;
+    }
+    .footer__nav{
+        justify-content: space-between;
+        min-width: 288px;
+    }
+    .foooter__suscribe{
+        margin-top:0;
+        min-width: 288px;
+    }
+    .foooter__suscribe_heading{
+        width: 288px;
+    }
+    .foooter__suscribe_form{
+        max-width: 288px;
+        padding-top: 8px;
+    }
+    .foooter__suscribe_form_btn[type='submit']{
+        display: none;
+    }
+}
