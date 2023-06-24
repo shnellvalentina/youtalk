@@ -79,10 +79,19 @@ p {
     border-bottom: 1px solid #eff5fb;
 }
 
-main {
-    background-image: url(../images/svg/article-img-cloud-acide.svg);
-    background-repeat: no-repeat;
-    background-position: 1300px 2450px;
+.main {
+    background-image: 
+    url(../images/svg/article-img-cloud-acide.svg),
+    url(../images/svg/article-img-background-bottom.svg),
+    url(../images/svg/article-img-cloud-bottom.svg);
+    background-repeat: 
+    no-repeat, 
+    no-repeat, 
+    no-repeat;
+    background-position: 
+    right 2480px,
+    center 5690px,
+    right 5269px;
 }
 
 .header__wrapper_img-logo {
@@ -656,22 +665,6 @@ ul {
     margin-right: 8px;
 }
 
-.search-psycologist {
-    background-image: 
-    url(../images/svg/article-img-background-bottom.svg), 
-    url(../images/svg/article-img-cloud-bottom.svg);
-    background-repeat: 
-    no-repeat, 
-    no-repeat;
-    background-size: 
-    cover, 
-    272px 240x;
-    background-position:  
-    center 428px,
-    1367px 72px;
-}
-
-
 .search-psycologist-container {
     display: flex;
     max-width: 1200px;
@@ -884,6 +877,9 @@ ul {
     }
     .header__wrapper_img-logo {
         margin-right: 32px;
+    }
+    .main{
+        background-image: none;
     }
 
     .main__wrapper {
